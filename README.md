@@ -35,15 +35,15 @@ Version control for Git is a way to track changes to files over time. It is usef
 ### 1.Clone Repository
 - Open a terminal or command prompt.
 - Navigate to directory where you want to store the repository.
-- Run the command _git clone <repository_URL>_
+- Run the command `git clone <repository_URL>`
 * Replace _<repository_URL>_ with the actual repository link
 
 ### 2.Navigate to the Cloned Repository
-- Use the command _cd <reposotory_name>_.
+- Use the command `cd <reposotory_name>`.
 - Replace _<reposotory_name>_ with the cloned repository folder name.
 
 ### 3.View the Content
-- List files using _ls_ on Linux and _dir_ on Windows.
+- List files using `ls` on Linux and `dir` on Windows.
 - Open files using an editor or view them directly from terminal.
 
 
