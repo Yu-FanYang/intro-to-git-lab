@@ -6,7 +6,7 @@ This repository is for the version control lab assignment
 
 ## Project Overview
 The purpose of CheckPoint 1 is to introduce students to version control, Git fundamentals, and GitHub for collaboration and project managment.
-Key Learning Outcomes:
+### Key Learning Outcomes:
 - Understand the concept and purpose of version control.
 - Learn basic Git commands.
 - Create and manage GitHub repository.
@@ -45,5 +45,26 @@ Version control for Git is a way to track changes to files over time. It is usef
 ### 3.View the Content
 - List files using _ls_ on Linux and _dir_ on Windows.
 - Open files using an editor or view them directly from terminal.
+
+
+### Key Git Commands
+*Below is a table summarizing key Git commands, syntax, and functionality.**
+
+
+| Command      | Syntax                          | Functionality                                      |
+|-------------|--------------------------------|--------------------------------------------------|
+| `git init`  | `git init`                     | Initializes a new Git repository.  |
+| `git clone` | `git clone <repo_url>`         | Copies a repository from GitHub.   |
+| `git add`   | `git add <file>` or `git add .` | Stages changes for commit.       |
+| `git commit`| `git commit -m "message"`      | Saves a snapshot of the project. |
+| `git push`  | `git push origin <branch_name>` | Uploads changes to a remote repository.  |
+| `git pull`  | `git pull origin <branch_name>` | Fetches and merges updates from remote.  |
+| `git branch`| `git branch` or `git branch <branch_name>` | Lists or creates branches. |
+| `git merge` | `git merge <branch_name>`      | Combines changes from one branch into another. |
+
+
+
+
+
 
 
